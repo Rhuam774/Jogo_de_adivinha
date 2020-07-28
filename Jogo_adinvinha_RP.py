@@ -15,7 +15,7 @@ print('Vamos começar? :)\n')
 sleep(1)
 system('cls')
 print('Irei escolher um numero de acordo com a dificuldade que você escolher e você tem 3 chances para adivinhar o numero!')
-pgt2 = input('\nAgora escolha uma dificuldade: digite 1 para Facil, digite 2 para Medio, digite 3 para dificil')
+pgt2 = input('\nAgora escolha uma dificuldade; digite 1 para Facil, digite 2 para Medio, digite 3 para dificil: ')
 
 
 if pgt2 == '1':
@@ -37,4 +37,4 @@ elif pgt2 == '3':
     pacotej1.Cts(15)
 
 else:
-    print('Você digitou errado e por isso o jogo foi fechado')
+    print('Você não digitou ou digitou errado e por isso o jogo foi fechado')
