@@ -17,7 +17,7 @@ def Cts(esc):  # "Cts" quer dizer: Chutes de numeros aleatorios!, "esc" quer diz
                 aaa -= 1
                 sleep(2)
 
-            elif pgt > a:
+            elif pgt < a:
                 print(f'errado! meu numero e maior que o numero {pgt}')
                 aaa -= 1
                 sleep(2)
