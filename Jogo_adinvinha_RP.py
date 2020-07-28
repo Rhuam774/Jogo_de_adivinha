@@ -1,20 +1,22 @@
-# wwwwwwwwwwwwwwwwwwwwwwwwwwww cadeia de importaÃ§Ãµes wwwwwwwwwwwwwwwwwwwwwwww
+# _*_ coding: cp1252 _*_
+#wwwwwwwwwwwwwwwwwwwwwwww cadeia de importações wwwwwwwwwwwwwwwwwwwwwwww
 
 import pacotej1
 from os import system
 from time import sleep
+#wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 
-pgt1 = input('OlÃ¡ digite seu nome: ')  # "pgt" quer dizer: pergunta, e os numeros sÃ£o pra enumerar cada pergunta
+pgt1 = input('Olá digite seu nome: ')  # "pgt" quer dizer: pergunta, e os numeros são pra enumerar cada pergunta
 print('\n')
 system('cls')
 
 print('Seja bem-vindo ', pgt1, '\n')
 sleep(2)
 
-print('Vamos comeÃ§ar? :)\n')
+print('Vamos começar? :)\n')
 sleep(1)
 system('cls')
-print('Irei escolher um numero de acordo com a dificuldade que vocÃª escolher e vocÃª tem 3 chances para adivinhar o numero!')
+print('Irei escolher um numero de acordo com a dificuldade que você escolher e você tem 3 chances para adivinhar o numero!')
 pgt2 = input('\nAgora escolha uma dificuldade; digite 1 para Facil, digite 2 para Medio, digite 3 para dificil: ')
 
 
@@ -37,4 +39,4 @@ elif pgt2 == '3':
     pacotej1.Cts(15)
 
 else:
-    print('VocÃª nÃ£o digitou ou digitou errado e por isso o jogo foi fechado')
+    print('Você não digitou ou digitou errado e por isso o jogo foi fechado')

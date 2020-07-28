@@ -1,3 +1,4 @@
+# _*_ coding: cp1252 _*_
 import random
 import math
 from time import sleep
@@ -13,10 +14,11 @@ def Cts(esc):  # "Cts" quer dizer: Chutes de numeros aleatorios!, "esc" quer diz
         while aaa >= bbb:
             if aaa == bbb:
                 print(f'acabou suas chances :( \n_____O numero que eu tinha escolhido era {a}_____')
+                sleep(4)
                 sys.exit()
 
             else:
-                print(f'\n\nVocÃª tem {aaa} chances!')
+                print(f'\n\nVocê tem {aaa} chances!')
                 pgt = int(input(f'\nQual o numero que eu escolhi? '))
 
                 if pgt > a:
@@ -30,7 +32,7 @@ def Cts(esc):  # "Cts" quer dizer: Chutes de numeros aleatorios!, "esc" quer diz
                     sleep(2)
 
                 elif pgt == a:
-                    print(f'parabÃ©ns vocÃª acertou! E o numero {a}!')
+                    print(f'parabéns você acertou! E o numero {a}!')
                     sleep(4)
                     aaa = -1
 
