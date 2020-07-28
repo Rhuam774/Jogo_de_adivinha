@@ -10,15 +10,15 @@ def Cts(esc):  # "Cts" quer dizer: Chutes de numeros aleatorios!, "esc" quer diz
 
     if aaa >= bbb:
         while aaa > bbb:
-            pgt = int(input('\n\nQual o numero que escolhi?'))
+            pgt = int(input(f'\n\nQual o numero que escolhi? Você tem {aaa}'))
 
             if pgt > a:
-                print('Errado! meu numero e menor que o numero escolhido')
+                print(f'Errado! meu numero e menor que {pgt}')
                 aaa -= 1
                 sleep(2)
 
             elif pgt > a:
-                print('errado! meu numero e maior que o numero escolhido')
+                print(f'errado! meu numero e maior que {pgt}')
                 aaa -= 1
                 sleep(2)
 
